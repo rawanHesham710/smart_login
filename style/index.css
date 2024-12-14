@@ -1,0 +1,48 @@
+:root{
+ --bodyColor: #24353F;
+ --textcolor: #17A2B8
+}
+
+body{
+    background-color: var(--bodyColor);
+}
+
+.login{
+
+    background-color: var(--bodyColor);
+}
+
+.logcaption{
+    color: var(--textcolor) ;
+}
+
+.loginfield input{
+    background-color: transparent;
+    color: #fff !important;
+}
+
+.loginfield input::placeholder{
+    color: #fff;
+    opacity: 1;
+}
+
+
+.loginfield input:focus {
+    background-color: var(--bodyColor); 
+    color: #fff; 
+    outline: none; 
+}
+
+span a{
+    text-decoration: none;
+    transition: 0.1s;
+}
+span a:hover{
+    text-decoration:underline;
+}
+
+.btn-outline-info{
+    background-color: transparent;
+    color: var(--textcolor);
+    border-color: var(--textcolor);
+}
